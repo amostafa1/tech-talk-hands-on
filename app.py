@@ -3,7 +3,7 @@ import requests
 def getData():
     r = requests.get("https://api.example.com/data")
     return r.json()
-#A comment
+#A comment extension to modify code
 def calc(x, y):
     return x + y * 2
 
